@@ -8,4 +8,8 @@ Configure SQL Server for Datadog integration.
 1) From where you will execute the powershell script:
 
 NOTE: replace password with the password you want to use  
-Set-Variable -Name DATADOG_SQL_SERVER_PWD -Value password
+Set-Variable -Name DATADOG_SQL_SERVER_PWD -Value password  
+  
+2) Execute the powershell script  
+  
+.\powershell_sql_server_datadog_setup.ps1
