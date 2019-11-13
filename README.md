@@ -1,9 +1,10 @@
 # z_pov  
   
-#Introduction  
+Introduction  
+-  
   
-  
-##Configure SQL Server for Datadog integration.  
+Configure SQL Server for Datadog integration.  
+-
   
 1) From where you will execute the powershell script:
 
@@ -14,7 +15,8 @@ Set-Variable -Name DATADOG_SQL_SERVER_PWD -Value password
   
 .\powershell_sql_server_datadog_setup.ps1  
   
-##Datadog Configuration Files  
+Datadog Configuration Files  
+-
   
 1) In the directory datadog_config directory there is a windows and a linux datadog.yaml file for each OS.  
   
