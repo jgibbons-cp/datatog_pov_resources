@@ -1,0 +1,8 @@
+init_config:
+
+instances:
+  - name: Example website
+    url: http://<URL>
+
+  - name: Zappos
+    url: https://<URL>
